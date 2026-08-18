@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url("images/hero_pic.avif");
+}
+
+#navbarNav li a {
+  color: white;
+}
+
+.navbar-brand h3 {
+  letter-spacing: 3px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+/*hero section*/
+
+.hero-section {
+  border: 1px solid transparent;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/*Incontri online*/
+
+.programma {
+  min-height: 100vh;
+  color: #ffff;
+  border: 1px solid transparent;
+}
+
+.programma,
+.autori h3 {
+  color: #ffd60a;
+}
+
+.programma .card-text {
+  font-style: italic;
+}
+
+.card-img-top {
+  height: 380px;
+}
+
+.programma .card {
+  max-width: 100%;
+}
+
+.card-img-top:hover {
+  transform: scale(1.08);
+  transition: 1s;
+  overflow: hidden;
+  filter: opacity(0.7);
+  cursor: pointer;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.card small {
+  text-decoration: underline wavy red;
+  text-decoration-thickness: 1px;
+}
