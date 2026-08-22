@@ -9,6 +9,19 @@
   color: white;
 }
 
+#navbarNav a {
+  transition: all 0.3s ease;
+}
+
+#navbarNav a:hover {
+  color: #000 !important; /* Colore primario Bootstrap */
+  background-color: #fee822fa; /* Sfondo giallo chiaro tipo evidenziatore */
+  padding: 2px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
 .navbar-brand h3 {
   letter-spacing: 1px;
 }
@@ -23,6 +36,13 @@
   border: 1px solid transparent;
   text-align: center;
   padding: 100px 0;
+}
+
+/*home*/
+
+.card-title-home:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 /*Incontri online*/
