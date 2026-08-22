@@ -71,9 +71,22 @@
   min-height: 100%;
 }
 
+.titolo-autori {
+  transition: all 0.3s ease;
+}
+
+.titolo-autori:hover {
+  color: #fff !important; /* Colore primario Bootstrap */
+  background-color: #d55c01; /* Sfondo giallo chiaro tipo evidenziatore */
+  padding: 2px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
 .card-autore:hover {
   transform: scale(1.05);
-  background-color: rgba(120, 6, 6, 0.84);
+  background-color: #780606d6;
   color: #fff;
 }
 
