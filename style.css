@@ -64,6 +64,23 @@
   color: #9d0208;
 }
 
+/* Autori */
+
+.card-autore {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.card-autore:hover {
+  transform: scale(1.05);
+  background-color: rgba(120, 6, 6, 0.84);
+  color: #fff;
+}
+
+.card-autore:hover .text-body-secondary {
+  color: #fff !important;
+}
+
 /*Footer*/
 
 footer {
