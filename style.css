@@ -2,7 +2,7 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Times", sans-serif;
 }
 
 #navbarNav li a {
@@ -43,6 +43,20 @@
 .card-title-home:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+
+.vai-programma:hover {
+  background-color: #4b91fd;
+  color: #fff;
+}
+
+.vai-relatori {
+  color: #1c9137;
+}
+
+.vai-relatori:hover {
+  background-color: #7bb99d;
+  color: #fff;
 }
 
 /*Incontri online*/
@@ -95,13 +109,13 @@
   transition: all 0.3s ease;
 }
 
-.titolo-autori:hover {
+.titolo-autori {
   color: #fff !important; /* Colore primario Bootstrap */
   background-color: #d55c01; /* Sfondo giallo chiaro tipo evidenziatore */
   padding: 2px 5px;
   border-radius: 4px;
   cursor: pointer;
-  transform: scale(1.08);
+  margin-bottom: 15px;
 }
 
 .card-autore:hover {
