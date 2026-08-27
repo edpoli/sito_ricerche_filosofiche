@@ -162,3 +162,10 @@ footer {
   transform: translateY(-3px);
   color: #fff;
 }
+
+@media (min-width: 992px) {
+  .programma .card {
+    width: 75%;
+    height: 75%;
+  }
+}
