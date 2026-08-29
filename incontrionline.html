@@ -24,13 +24,14 @@
   </head>
   <body>
     <!-- Navbar -->
+    <!-- Navbar -->
     <nav
-      class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+      class="navbar navbar-expand-lg border-bottom border-body"
       data-bs-theme="dark"
     >
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">
-          <h5 class="navbar-titolo">Ricerche Filosofiche</h5></a
+        <a class="navbar-brand" href="index.html">
+          <h3 class="navbar-titolo">Ricerche Filosofiche</h3></a
         >
         <button
           class="navbar-toggler border border-white"
@@ -49,18 +50,21 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                ><h5>Home</h5></a
+              <a
+                class="nav-link active fs-4"
+                aria-current="page"
+                href="index.html"
+                >Home</a
               >
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="incontrionline.html"
-                ><h5>Incontri Online</h5></a
+              <a class="nav-link fs-4" href="incontrionline.html"
+                >Incontri Online</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="autori.html"><h5>Relatori</h5></a>
+              <a class="nav-link fs-4" href="autori.html">Relatori</a>
             </li>
           </ul>
         </div>
@@ -81,7 +85,7 @@
         <!-- Primo incontro -->
 
         <div class="row mt-5">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="card bg-body-tertiary rounded-3 shadow">
               <img
                 src="images/Nietzsche_volto.png"
@@ -99,7 +103,7 @@
             </div>
           </div>
 
-          <div class="col-6">
+          <div class="col-12 col-md-6 mt-2">
             <div class="accordion" id="accordion_uno">
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -108,7 +112,7 @@
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapseOne"
                   >
                     Scopri di più
@@ -138,7 +142,7 @@
 
         <!-- Secondo incontro -->
         <div class="row mt-5 bg-body-tertiary">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="card bg-body-tertiary rounded-3 shadow">
               <img
                 src="images/plato_volto.png"
@@ -156,7 +160,7 @@
             </div>
           </div>
 
-          <div class="col-6">
+          <div class="col-12 col-md-6 mt-2">
             <div class="accordion" id="platone">
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -194,7 +198,7 @@
         <!--Terzo Incontro-->
 
         <div class="row mt-5">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="card bg-body-tertiary rounded-3 shadow">
               <img
                 src="images/sartre_volto.png"
@@ -212,7 +216,7 @@
             </div>
           </div>
 
-          <div class="col-6">
+          <div class="col-12 col-md-6 mt-2">
             <div class="accordion" id="sartre">
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -250,7 +254,7 @@
 
         <!-- Quarto incontro -->
         <div class="row mt-5 bg-body-tertiary">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="card bg-body-tertiary rounded-3 shadow">
               <img
                 src="images/nancy_volto.png"
@@ -268,7 +272,7 @@
             </div>
           </div>
 
-          <div class="col-6">
+          <div class="col-12 col-md-6 mt-2">
             <div class="accordion" id="nancy">
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -306,7 +310,7 @@
 
         <!-- Quinto incontro -->
         <div class="row mt-5">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="card bg-body-tertiary rounded-3 shadow">
               <img
                 src="images/deleuze_volto.png"
@@ -324,7 +328,7 @@
             </div>
           </div>
 
-          <div class="col-6">
+          <div class="col-12 col-md-6 mt-2">
             <div class="accordion" id="deleuze">
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -363,7 +367,8 @@
     </section>
 
     <!--Footer-->
-    <footer class="bg-dark text-light mt-5">
+    <!--Footer-->
+    <footer class="mt-5">
       <div class="container">
         <div class="row g-4 text-center">
           <!-- Info -->
@@ -403,7 +408,7 @@
                 >
               </li>
               <li class="mb-2">
-                <a href="autori.html" class="footer-link">Relatori</a>
+                <a href="autori.html" class="footer-link">Autori</a>
               </li>
             </ul>
           </div>
@@ -413,10 +418,12 @@
             <h5 class="mb-4">Contatti</h5>
             <ul class="list-unstyled">
               <li class="mb-3">
-                <a href="mailto:contact@example.com" class="footer-link">
-                  <i class="bi bi-envelope-fill">
-                    filosofia.applicata20@gmail.com
-                  </i>
+                <a
+                  href="mailto:filosofia.applicata20@gmail.com"
+                  class="footer-link"
+                >
+                  <i class="bi bi-envelope-fill"> </i>
+                  filosofia.applicata20@gmail.com
                 </a>
               </li>
             </ul>
@@ -434,6 +441,7 @@
         </div>
       </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
