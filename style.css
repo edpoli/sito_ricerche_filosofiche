@@ -85,6 +85,15 @@ footer {
   align-items: center;
 }
 
+.incontri-section .d-flex.gap-media {
+  flex-wrap: wrap;
+  row-gap: 12px;
+}
+
+.incontri-section .d-flex.gap-media a {
+  text-align: center;
+}
+
 .card-title-home:hover {
   transform: scale(1.05);
   cursor: pointer;
@@ -232,14 +241,11 @@ footer {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 400px) {
   .gap-media {
-    gap: 4px;
+    gap: 8px;
   }
-}
-
-@media (max-width: 261px) {
   .gap-media p {
-    font-size: 15px;
+    font-size: 1.1rem;
   }
 }
