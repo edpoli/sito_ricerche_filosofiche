@@ -231,3 +231,15 @@ footer {
     height: 75%;
   }
 }
+
+@media (max-width: 318px) {
+  .gap-media {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 318px) {
+  .gap-media p {
+    font-size: 16px;
+  }
+}
