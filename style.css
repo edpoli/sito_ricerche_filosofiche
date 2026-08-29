@@ -36,8 +36,6 @@ footer {
   font-weight: bold;
 }
 
-
-
 .navbar-toggler-icon {
   color: white;
 }
@@ -111,26 +109,6 @@ footer {
   background-color: #48bf84;
   color: #fff;
   padding: 5px 0px;
-}
-
-.data-ora {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 20px;
-  margin-top: 15px;
-}
-
-.data-home {
-  color: #c2002d;
-}
-
-.orario-home {
-  color: #0e3b43;
-}
-
-.link-home {
-  color: #007fff;
 }
 
 .accordion-text {
@@ -251,11 +229,5 @@ footer {
   .programma .card {
     width: 75%;
     height: 75%;
-  }
-}
-
-@media (min-width: 768px) {
-  .data-ora {
-    display: block;
   }
 }
